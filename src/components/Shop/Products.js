@@ -10,13 +10,13 @@ const DUMMY_PRODUCTS = [
   },
   {
     id: "p2",
-    price: "13",
+    price: 13,
     title: "My First BOOK",
     description: "This is a cute book!",
   },
   {
     id: "p3",
-    price: "22",
+    price: 22,
     title: "My First Teddy",
     description: "A fluffy teddy for kids!",
   },
