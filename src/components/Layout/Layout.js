@@ -4,7 +4,7 @@ import MainHeader from './MainHeader';
 const Layout = (props) => {
   return (
     <Fragment>
-      <MainHeader />
+      <MainHeader onToggle={props.onToggle} />
       <main>{props.children}</main>
     </Fragment>
   );
